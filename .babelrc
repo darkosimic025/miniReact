@@ -1,0 +1,9 @@
+{
+    "presets": ["@babel/preset-env"],
+    "plugins": [
+      ["@babel/plugin-transform-react-jsx", {
+        "pragma": "miniReact.createElement",
+        "pragmaFrag": "miniReact.Fragment"
+      }]
+    ]
+  }
